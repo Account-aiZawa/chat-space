@@ -1,0 +1,15 @@
+.side-bar
+  .side-header
+    .side-header__box
+      %p.side-header__box__username masa
+      %ul.side-header__box__menu
+        %li
+          = link_to '#', class: 'side-header__box__menu__new-group' do
+            = icon('far', 'edit')
+        %li
+          = link_to '#', class: 'sideHeader__box__menu__edit-user' do
+            = icon('fas', 'cog')
+  .groups
+    = link_to '#', class: 'group' do
+      %p.group__group-name techcamp
+      %p.group__latest-message まだメッセージがありません
