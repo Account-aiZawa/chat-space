@@ -126,10 +126,11 @@
       padding: 20px 40px;
       .new-message {
         display: flex;
+        width: 100%;
         .input-box {
           display: flex;
           position: relative;
-          width: 100%;
+          width: calc(100% - 15px);
           &__text {
             border-style: none;
             height: 50px;
