@@ -94,10 +94,11 @@
         margin-top: 28px;
       }
     }
-    .massages {
+    .messages {
       height: calc(100vh - 190px);
       background-color: #fafafa;
       padding: 35px 40px;
+      overflow: scroll;
       .message {
         .message__upper-info {
           display: flex;
